@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-image: url("https://images.unsplash.com/photo-1604011237320-8e0506614fdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8NXp6bXFqc2NOeFV8fGVufDB8fHx8&auto=format&fit=crop&w=420&q=60");
+            background-repeat: no-repeat;
+            background-size: 280%;
+            background-position: -400px 0px;
+        }
+        
+        h2 {
+            color: aqua;
+        }
+        
+        .header {
+            border: 1px solid;
+            text-align: center;
+            font-family: sans-serif;
+        }
+        
+        .sign,
+        .forgot {
+            float: left;
+            padding: 5px;
+            margin: 5px;
+        }
+        
+        .forgot {
+            position: relative;
+            left: 50px;
+        }
+        
+        .sign {
+            position: relative;
+            left: 20px;
+        }
+        
+        .main {
+            width: 400px;
+            margin: 100px auto 0px auto;
+        }
+        
+        section {
+            margin: 40px;
+        }
+        
+        .maincontainer {
+            background-color: #76918c;
+            width: 100%;
+            font-size: 18px;
+            border-radius: 10px;
+            border: 1px solid rgb(149, 217, 138);
+            box-shadow: 2px 2px 15px rgb(0, 0, 0, 0.3);
+            color: #e5ebee;
+            height: 328px;
+        }
+        
+        label {
+            font-family: sans-serif;
+            font-size: 18px;
+            font-style: italic;
+        }
+        
+        input {
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            padding: 7px;
+            background-color: #ffff;
+            box-shadow: inset 1px, 1px, 5px rgba(0, 0, 0, 0.3);
+        }
+        
+        a {
+            color: azure;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h2> Online Shoping web page</h2>
+    </div>
+    <div class="main">
+        <h2>Login:</h2>
+
+
+        <div class="maincontainer">
+            <section>
+
+                <label> <i>UserName:</i></label><br>
+                <input type="text" name="uname" placeholder="Enter the username"><br><br>
+                <label> <i>Password:</i></label><br>
+                <input type="password" name="pass" placeholder="Enter the password"><br><br><br>
+                <input type="submit" class="submit" value="Login"><br>
+
+                <div class="sign">
+                    <a href="Registration.html"> Sign up</a>
+                </div>
+
+                <div class="forgot">
+                    <a href="forgot_pass.html">Forgot password</a>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>

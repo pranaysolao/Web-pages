@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intra Document link</title>
+    <style>
+        #container {
+            display: grid;
+            grid-template-columns: 2fr 9fr;
+        }
+        
+        #rightpanel {
+            height: 500px;
+            overflow: auto;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+        
+        a:link {
+            color: rgb(5, 219, 5);
+        }
+        
+        a:active {
+            color: rgb(240, 6, 6);
+        }
+        /* a:visited {
+            color: rgb(26, 205, 218);
+        } */
+        
+        li {
+            border: 2px solid;
+            background-color: tomato;
+            color: rgb(216, 234, 21);
+            width: 100px;
+            padding: 5px;
+            margin-bottom: 20px;
+            list-style: none;
+            border-radius: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="leftpanel">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#electronic">Electronic</a></li>
+                <li><a href="#footwear">Footwear</a></li>
+                <li><a href="#fasion">Fasion</a></li>
+                <li><a href="#shop">shop</a></li>
+            </ul>
+        </div>
+
+        <div id="rightpanel">
+            <h2 id="home">Home</h2>
+            <p>Lorem ipsum, dolor sit <span>Great <a href="#offers">offers</a> on footwear and <a href="#fasion">Fasion</a></span> amet consectetur adipisicing elit. Rerum incidunt vel illum quam voluptatem doloremque voluptate tempora ea ipsam officiis
+                suscipit molestias laboriosam laborum, delectus, vitae in iusto quasi est natus illo aperiam facilis error sapiente cum? Obcaecati, repellendus dolorum. Ipsa sequi ea alias repellendus iusto, ut, vitae consequuntur quos amet nisi odit
+                aliquam. Illum vel quam maiores veniam nemo tempore quasi minima sapiente saepe molestias numquam officia obcaecati hic alias beatae, ratione perferendis fuga exercitationem ab, quo ad magnam expedita veritatis! Illo facere ea recusandae
+                quaerat dolorem eius ipsa laudantium nulla consectetur mollitia assumenda unde nisi, a reiciendis, impedit officiis, nam aut numquam est fuga esse. Ipsa debitis hic laborum assumenda perferendis laudantium. Distinctio, cum, consequuntur
+                quas earum nulla velit, id veniam dolor aut necessitatibus deleniti odio. Quo deleniti mollitia error saepe nesciunt cumque minima quae, asperiores delectus, consequatur qui ratione voluptas. Sed nostrum quibusdam ipsam. Laborum tenetur
+                suscipit dolores sit minus cum commodi dolor eaque. Dicta fugiat id aspernatur suscipit consequatur perferendis, error deserunt repudiandae eius, soluta, repudiandae numquam officia deserunt impedit ipsam culpa perspiciatis neque. Consectetur
+                vel iure, excepturi cumque porro ex vitae nobis, illo voluptatum minus distinctio ut libero doloribus? Provident, labore debitis!
+
+                <h2 id="electronic">electronic</h2>
+                <img src="assets/speaker.jpeg" width="100" height="100">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum incidunt vel illum quam voluptatem doloremque voluptate tempora ea ipsam officiis suscipit molestias laboriosam laborum, delectus, vitae in iusto quasi est natus illo aperiam
+                    facilis error sapiente cum? Obcaecati, repellendus dolorum. Ipsa sequi ea alias repellendus iusto, ut, vitae consequuntur quos amet nisi odit aliquam. Illum vel quam maiores veniam nemo tempore quasi minima sapiente saepe molestias
+                    <ol id="offers">
+                        <li>70% of on shirt</li>
+                        <li>30% of on sport shoes</li>
+                    </ol>
+                    numquam officia obcaecati hic alias beatae, ratione perferendis fuga exercitationem ab, quo ad magnam expedita veritatis! Illo facere ea recusandae quaerat dolorem eius ipsa laudantium nulla consectetur mollitia assumenda unde nisi, a reiciendis, impedit
+                    officiis, nam aut numquam est fuga esse. Ipsa debitis hic laborum assumenda perferendis laudantium. Distinctio, cum, consequuntur quas earum nulla velit, id veniam dolor aut necessitatibus deleniti odio. Quo deleniti mollitia error
+                    saepe nesciunt cumque minima quae, asperiores delectus, consequatur qui ratione voluptas. Sed nostrum quibusdam ipsam. Laborum tenetur suscipit dolores sit minus cum commodi dolor eaque. Dicta fugiat id aspernatur suscipit consequatur
+                    perferendis, error deserunt repudiandae molestias,
+                </p>
+                <h2 id="footwear">footwear</h2>
+                <img src="assets/shoes.jpeg" alt="" height="100" width="100">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum incidunt vel illum quam voluptatem doloremque voluptate tempora ea ipsam officiis suscipit molestias laboriosam laborum, delectus, vitae in iusto quasi est natus illo aperiam
+                    facilis error sapiente cum? Obcaecati, repellendus dolorum. Ipsa sequi ea alias repellendus iusto, ut, vitae consequuntur quos amet nisi odit aliquam. Illum vel quam maiores veniam nemo tempore quasi minima sapiente saepe molestias
+                    numquam officia obcaecati hic alias beatae, ratione perferendis fuga exercitationem ab, quo ad magnam expedita veritatis! Illo facere ea recusandae quaerat dolorem eius ipsa laudantium nulla consectetur mollitia assumenda unde nisi,
+                    a reiciendis, impedit officiis, nam aut numquam est fuga esse. Ipsa debitis hic laborum assumenda perferendis laudantium. Distinctio, cum, consequuntur quas earum nulla velit, id veniam dolor aut necessitatibus deleniti odio. Quo deleniti
+                    mollitia error saepe nesciunt cumque minima quae, asperiores delectus, consequatur qui ratione voluptas. Sed nostrum quibusdam ipsam. Laborum tenetur suscipit dolores sit minus cum commodi dolor eaque. Dicta fugiat id aspernatur suscipit
+                    consequatur perferendis, error deserunt repudiandae molestias,
+                </p>
+
+                <h2 id="fasion">fasion</h2>
+                <!-- <img src="assets/shirt.jpeg" alt="" width="100" height="100"> -->
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum incidunt vel illum quam voluptatem doloremque voluptate tempora ea ipsam officiis suscipit molestias laboriosam laborum, delectus, vitae in iusto quasi est natus illo aperiam
+                    facilis error sapiente cum? Obcaecati, repellendus dolorum. Ipsa sequi ea alias repellendus iusto, ut, vitae consequuntur quos amet nisi odit aliquam. Illum vel quam maiores veniam nemo tempore quasi minima sapiente saepe molestias
+                    numquam officia obcaecati hic alias
+                    <figcaption>Shirt</figcaption>
+                    <img src="assets/shirt.jpeg" alt="" width="100" height="100"> eatae, ratione perferendis fuga exercitationem ab, quo ad magnam expedita veritatis! Illo facere ea recusandae quaerat dolorem eius ipsa laudantium nulla consectetur mollitia
+                    assumenda unde nisi, a reiciendis, impedit officiis, nam aut numquam est fuga esse. Ipsa debitis hic laborum assumenda perferendis laudantium. Distinctio, cum, consequuntur quas earum nulla velit, id veniam dolor aut necessitatibus
+                    deleniti odio. Quo deleniti mollitia error saepe nesciunt cumque minima quae, asperiores delectus, consequatur qui ratione voluptas. Sed nostrum quibusdam ipsam. Laborum tenetur suscipit dolores sit minus cum commodi dolor eaque. Dicta
+                    fugiat id aspernatur suscipit consequatur perferendis, error deserunt repudiandae molestias,
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <h2>Home</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum incidunt vel illum quam voluptatem doloremque voluptate tempora ea ipsam officiis suscipit molestias laboriosam laborum, delectus, vitae in iusto quasi est natus illo aperiam facilis
+        error sapiente cum? Obcaecati, repellendus dolorum. Ipsa sequi ea alias repellendus iusto, ut, vitae consequuntur quos amet nisi odit aliquam. Illum vel quam maiores veniam nemo tempore quasi minima sapiente saepe molestias numquam officia obcaecati
+        hic alias beatae, ratione perferendis fuga exercitationem ab, quo ad magnam expedita veritatis! Illo facere ea recusandae quaerat dolorem eius ipsa laudantium nulla consectetur mollitia assumenda unde nisi, a reiciendis, impedit officiis, nam
+        aut numquam est fuga esse. Ipsa debitis hic laborum assumenda perferendis laudantium. Distinctio, cum, consequuntur quas earum nulla velit, id veniam dolor aut necessitatibus deleniti odio. Quo deleniti mollitia error saepe nesciunt cumque minima
+        quae, asperiores delectus, consequatur qui ratione voluptas. Sed nostrum quibusdam ipsam. Laborum tenetur suscipit dolores sit minus cum commodi dolor eaque. Dicta fugiat id aspernatur suscipit consequatur perferendis, error deserunt repudiandae
+        eius, soluta, repudiandae numquam officia deserunt impedit ipsam culpa perspiciatis neque. Consectetur vel iure, excepturi cumque porro ex vitae nobis, illo voluptatum minus distinctio ut libero doloribus? Provident, labore debitis!
+    </p>
+    <h2>electronic</h2>
+    <img src="assets/speaker.jpeg" width="100" height="100">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum incidunt vel illum quam voluptatem doloremque voluptate tempora ea ipsam officiis suscipit molestias laboriosam laborum, delectus, vitae in iusto quasi est natus illo aperiam facilis
+        error sapiente cum? Obcaecati, repellendus dolorum. Ipsa sequi ea alias repellendus iusto, ut, vitae consequuntur quos amet nisi odit aliquam. Illum vel quam maiores veniam nemo tempore quasi minima sapiente saepe molestias numquam officia obcaecati
+        hic alias beatae, ratione perferendis fuga exercitationem ab, quo ad magnam expedita veritatis! Illo facere ea recusandae quaerat dolorem eius ipsa laudantium nulla consectetur mollitia assumenda unde nisi, a reiciendis, impedit officiis, nam
+        aut numquam est fuga esse. Ipsa debitis hic laborum assumenda perferendis laudantium. Distinctio, cum, consequuntur quas earum nulla velit, id veniam dolor aut necessitatibus deleniti odio. Quo deleniti mollitia error saepe nesciunt cumque minima
+        quae, asperiores delectus, consequatur qui ratione voluptas. Sed nostrum quibusdam ipsam. Laborum tenetur suscipit dolores sit minus cum commodi dolor eaque. Dicta fugiat id aspernatur suscipit consequatur perferendis, error deserunt repudiandae
+        molestias,
+    </p>
+    <h2>footwear</h2>
+    <img src="assets/shoes.jpeg" alt="" height="100" width="100">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum incidunt vel illum quam voluptatem doloremque voluptate tempora ea ipsam officiis suscipit molestias laboriosam laborum, delectus, vitae in iusto quasi est natus illo aperiam facilis
+        error sapiente cum? Obcaecati, repellendus dolorum. Ipsa sequi ea alias repellendus iusto, ut, vitae consequuntur quos amet nisi odit aliquam. Illum vel quam maiores veniam nemo tempore quasi minima sapiente saepe molestias numquam officia obcaecati
+        hic alias beatae, ratione perferendis fuga exercitationem ab, quo ad magnam expedita veritatis! Illo facere ea recusandae quaerat dolorem eius ipsa laudantium nulla consectetur mollitia assumenda unde nisi, a reiciendis, impedit officiis, nam
+        aut numquam est fuga esse. Ipsa debitis hic laborum assumenda perferendis laudantium. Distinctio, cum, consequuntur quas earum nulla velit, id veniam dolor aut necessitatibus deleniti odio. Quo deleniti mollitia error saepe nesciunt cumque minima
+        quae, asperiores delectus, consequatur qui ratione voluptas. Sed nostrum quibusdam ipsam. Laborum tenetur suscipit dolores sit minus cum commodi dolor eaque. Dicta fugiat id aspernatur suscipit consequatur perferendis, error deserunt repudiandae
+        molestias,
+    </p>
+
+    <h2>fasion</h2>
+    <img src="assets/shirt.jpeg" alt="" width="100" height="100">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum incidunt vel illum quam voluptatem doloremque voluptate tempora ea ipsam officiis suscipit molestias laboriosam laborum, delectus, vitae in iusto quasi est natus illo aperiam facilis
+        error sapiente cum? Obcaecati, repellendus dolorum. Ipsa sequi ea alias repellendus iusto, ut, vitae consequuntur quos amet nisi odit aliquam. Illum vel quam maiores veniam nemo tempore quasi minima sapiente saepe molestias numquam officia obcaecati
+        hic alias beatae, ratione perferendis fuga exercitationem ab, quo ad magnam expedita veritatis! Illo facere ea recusandae quaerat dolorem eius ipsa laudantium nulla consectetur mollitia assumenda unde nisi, a reiciendis, impedit officiis, nam
+        aut numquam est fuga esse. Ipsa debitis hic laborum assumenda perferendis laudantium. Distinctio, cum, consequuntur quas earum nulla velit, id veniam dolor aut necessitatibus deleniti odio. Quo deleniti mollitia error saepe nesciunt cumque minima
+        quae, asperiores delectus, consequatur qui ratione voluptas. Sed nostrum quibusdam ipsam. Laborum tenetur suscipit dolores sit minus cum commodi dolor eaque. Dicta fugiat id aspernatur suscipit consequatur perferendis, error deserunt repudiandae
+        molestias,
+    </p> -->
+
+</body>
+
+</html>

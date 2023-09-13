@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .header {
+            border: 1px solid;
+            padding: 20px;
+            font-family: sans-serif;
+            text-align: center;
+        }
+        
+        body {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdBF8S0a7x3WYthk_8N_rUWfdvbzvBuLKdMoqGf0a8-2oB-f-Jl5vCIa0bEPtkdynbNeg&usqp=CAU://static.vecteezy.com/system/resources/previews/004/242/985/original/abstract-luxury-shiny-dark-blue-background-with-lines-golden-glowing-free-vector.jpg");
+            background-size: 280%;
+            background-position: -400px 0px;
+        }
+        
+        div.main {
+            width: 400px;
+            margin: 100px auto 0px auto
+        }
+        
+        div.register {
+            background-color: rgb(196, 152, 152);
+            width: 100%;
+            font-size: 18px;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 2px 2px 15px rgb(0, 0, 0, 0.3);
+            color: #ffff;
+        }
+        
+        form {
+            margin: 40px;
+        }
+        
+        label {
+            font-family: sans-serif;
+            font-size: 18px;
+            font-style: italic;
+        }
+        
+        input {
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            padding: 7px;
+            background-color: #ffff;
+            box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="main">
+        <h2> Registration form</h2>
+
+        <div class="register">
+            <form action="">
+                <label> UseName:</label><br>
+                <input type="text " name="uname" id="" placeholder="Enter username"><br><br>
+                <label>Password:</label><br>
+                <input type="password" name="pass" id="" placeholder="Enter Password"><br><br>
+                <label>conform password: </label><br>
+                <input type="password" name="conformpass" id="" placeholder="Enter conform password"><br><br>
+                <label>Mobile number:</label><br>
+                <input type="number" name="mobile" id="" placeholder="Mobile number"><br><br>
+                <label>Email:</label><br>
+                <input type="email" name="email" id="" placeholder="Enter Email"><br><br>
+                <input type="submit" value="submit" style="background-color: rgb(117, 111, 165);">
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
